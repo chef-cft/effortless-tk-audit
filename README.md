@@ -14,6 +14,5 @@ This particular package will load Centos 7 and audit settings on various control
 2. Edit plan.sh to match and add your origin.
 3. Add origin to bootstrap.sh
 4. Run `kitchen converge`
-5. Run `kitchen verify`
 6. Profit..
 
