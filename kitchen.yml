@@ -18,6 +18,3 @@ suites:
   - name: audit
     provisioner:
       arguments: ["your_origin", "audit_example"]
-    verifier:
-      inspec_tests:
-        - test/integration/default
