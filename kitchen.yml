@@ -17,4 +17,4 @@ platforms:
 suites:
   - name: audit
     provisioner:
-      arguments: ["your_origin", "audit_example"]
+      arguments: ["<%= ENV['HAB_ORIGIN'] %>", "audit_example"]
